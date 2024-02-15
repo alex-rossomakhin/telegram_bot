@@ -1,0 +1,2 @@
+class APIAnswerError(Exception):
+    pass
