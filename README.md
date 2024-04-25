@@ -29,14 +29,14 @@ python -m pip install --upgrade pip
 ```bash
 pip install -r requirements.txt
 ```
-Записать в переменные окружения (файл .env) необходимые ключи:
-
-токен профиля на ресурсе
-токен телеграм-бота
-свой ID в телеграме
-Запустить проект:
-
+Записать в переменные окружения (.env) ключи:
+* токен профиля на ресурсе
+* токен телеграм-бота
+* свой ID в телеграме
+Запуск бота:
+```bash
 python telegram_bot.py
+```
 
 ## Автор
 [Alexey Rossomakhin](https://github.com/alex-rossomakhin)
